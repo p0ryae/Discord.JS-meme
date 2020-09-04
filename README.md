@@ -4,12 +4,11 @@
 
 ## 🔴 Requirements 🔴
 You have to install a package called got
+
 To install it, you just have to simply do:
 ```js
 npm i got
 ```
-
-
 
 ## How to use?
 Coming soon!
