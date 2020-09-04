@@ -19,6 +19,6 @@ You can also clone this reposetory if you want and just replace the token in ind
 ## You found a issue or a Problem?
 No worries! You can just create a pull request or a new issue as you can see on the top of the reposetory!
 
-You can also join into our Discord Server if you need help with coding this or coding in general!
-[Support Discord Server!](https://discord.gg/2RPg23k)
+You can also join into our [Support Discord Server](https://discord.gg/2RPg23k) if you need help with coding this or coding discord bots in general
+
 
