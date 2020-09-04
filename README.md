@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="https://discord.gg/2RPg23k">
+    <img src="https://discordapp.com/api/guilds/416512197590777857/embed.png" alt="Discord" />
+  </a>
+</div>
+
 # Discord.js Simple & Advanced Meme command!
 ### Generate Popular memes! As good as Dank Memer bot itself 🐸
 ## 📕 Requirement 
