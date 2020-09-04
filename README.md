@@ -1,7 +1,7 @@
 [Support Discord Server!](https://discord.gg/2RPg23k)
 # Discord.js Simple & Advanced Meme command!
 ### Generate Popular memes! As good as Dank Memer bot itself 🐸
-## 🔴 Requirement 🔴
+## 📕 Requirement 
 You have to install a package called got which is a nice and fast API for generating memes etc! 
 
 To install it, you just have to simply do:
