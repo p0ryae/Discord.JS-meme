@@ -4,7 +4,7 @@ const client = new Discord.Client({
 });
 const { loadCommands } = require('./utils/loadCommands');
 
-client.login("NjY2MDcyODI4NzQ2OTI0MDMy.Xhu2qQ.0kIgMVgvD_dSWCO29Nx0_6NVFoY");
+client.login("BOT_TOKEN");
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();

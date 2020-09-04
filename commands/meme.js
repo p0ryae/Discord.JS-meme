@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
         let memeTitle = content[0].data.children[0].data.title;
         let memeUpvotes = content[0].data.children[0].data.ups;
         let memeNumComments = content[0].data.children[0].data.num_comments;
-        setTitle(`${memeTitle}`);
+        embed.setTitle(`${memeTitle}`);
         embed.setURL(`${memeUrl}`)
         embed.setColor('RANDOM')
         embed.setImage(memeImage);
