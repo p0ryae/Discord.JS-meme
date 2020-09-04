@@ -1,3 +1,13 @@
+<div align="center">
+  <a href="https://discord.gg/2RPg23k">
+    <img src="https://user-images.githubusercontent.com/59381835/92191514-d649ad80-ee18-11ea-9bc4-e95c7a122a99.png" alt="Discord" width="80"/>
+  </a>
+  <a href="https://youtube.com/dashcruft">
+    <img src="https://user-images.githubusercontent.com/59381835/92191346-676c5480-ee18-11ea-8240-e416eb1a5b5d.png" alt="Discord" width="80"/>
+  </a>
+</div>
+
+
 # Discord.js Simple & Advanced Meme command!
 ### Generate Popular memes! As good as Dank Memer bot itself 🐸
 ## 📕 Requirement 
@@ -20,4 +30,11 @@ No worries! You can just create a pull request or a new issue as you can see on 
 
 You can also join into our [Support Discord Server](https://discord.gg/2RPg23k) if you need help with coding this or coding discord bots in general
 
-
+<div align="center">
+  <a href="https://discord.gg/2RPg23k">
+    <img src="https://user-images.githubusercontent.com/59381835/92191514-d649ad80-ee18-11ea-9bc4-e95c7a122a99.png" alt="Discord" width="80"/>
+  </a>
+  <a href="https://youtube.com/dashcruft">
+    <img src="https://user-images.githubusercontent.com/59381835/92191346-676c5480-ee18-11ea-8240-e416eb1a5b5d.png" alt="Discord" width="80"/>
+  </a>
+</div>
