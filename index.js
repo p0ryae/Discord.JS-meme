@@ -4,7 +4,7 @@ const client = new Discord.Client({
 });
 const { loadCommands } = require('./utils/loadCommands');
 
-client.login("BOT_TOKEN");
+client.login("NjY2MDcyODI4NzQ2OTI0MDMy.Xhu2qQ.0kIgMVgvD_dSWCO29Nx0_6NVFoY");
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
@@ -21,6 +21,6 @@ client.on('message', async (message) => {
     const prefix = "!";
 
 	if (!message.content.startsWith(prefix)) return;
-    const commandfile = bot.commands.get(cmd.slice(prefix.length)) || bot.commands.get(bot.aliases.get(cmd.slice(prefix.length)));
-    commandfile.run(bot, message, args);
+    const commandfile = client.commands.get(cmd.slice(prefix.length)) || bot.commands.get(bot.aliases.get(cmd.slice(prefix.length)));
+    commandfile.run(client, message, args);
 })
