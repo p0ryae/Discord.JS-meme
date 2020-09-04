@@ -1,12 +1,26 @@
 const Discord = require('discord.js');
-const bot = new Discord.Client({
+const client = new Discord.Client({
 	partials: ['MESSAGE', 'CHANNEL', 'REACTION']
 });
 const { loadCommands } = require('./utils/loadCommands');
 
-bot.login("BOT_TOKEN");
+client.login("BOT_TOKEN");
 
-bot.commands = new Discord.Collection();
-bot.aliases = new Discord.Collection();
+client.commands = new Discord.Collection();
+client.aliases = new Discord.Collection();
 
-loadCommands(bot);
+loadCommands(client);
+
+client.on('message', async (message) => {
+    if (message.author.bot) return;
+
+	const messageArray = message.content.split(' ');
+	const cmd = messageArray[0];
+    const args = messageArray.slice(1);
+    
+    const prefix = "!";
+
+	if (!message.content.startsWith(prefix)) return;
+    const commandfile = bot.commands.get(cmd.slice(prefix.length)) || bot.commands.get(bot.aliases.get(cmd.slice(prefix.length)));
+    commandfile.run(bot, message, args);
+})

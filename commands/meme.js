@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const got = require('got');
 
-module.exports.run = async (bot, message, args) => {
+module.exports.run = async (client, message, args) => {
     let content = JSON.parse(response.body);
-    
+
     let permalink = content[0].data.children[0].data.permalink;
     let memeUrl = `https://reddit.com${permalink}`;
     let memeImage = content[0].data.children[0].data.url;
