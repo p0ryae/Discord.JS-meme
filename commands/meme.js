@@ -5,13 +5,15 @@ module.exports.run = async (bot, message, args) => {
 	const embed = new Discord.MessageEmbed();
 	got('https://www.reddit.com/r/memes/random/.json')
 		.then(response => {
-			const content = JSON.parse(response.body);
-			const permalink = content[0].data.children[0].data.permalink;
+			const [list] = JSON.parse(response.body);
+			const [post] = list.data.children;
+
+			const permalink = post.data.permalink;
 			const memeUrl = `https://reddit.com${permalink}`;
-			const memeImage = content[0].data.children[0].data.url;
-			const memeTitle = content[0].data.children[0].data.title;
-			const memeUpvotes = content[0].data.children[0].data.ups;
-			const memeNumComments = content[0].data.children[0].data.num_comments;
+			const memeImage = post.data.url;
+			const memeTitle = post.data.title;
+			const memeUpvotes = post.data.ups;
+			const memeNumComments = post.data.num_comments;
 
 			embed.setTitle(`${memeTitle}`);
 			embed.setURL(`${memeUrl}`);
