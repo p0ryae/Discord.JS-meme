@@ -16,7 +16,7 @@
     "discord.js"
   ],
   "author": "DashCruft",
-  "license": "ISC",
+  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/DashCruft/discord.js-meme/issues"
   },
