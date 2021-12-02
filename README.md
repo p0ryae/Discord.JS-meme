@@ -4,7 +4,7 @@
 
 ## 📕 Requirement 
 
-You have to install a package called got which is a nice and fast API for generating memes etc! 
+You have to install a package called `got` which is a nice and fast API for generating memes etc! <br>
 To install it, you just have to simply do:
 
 ```js
