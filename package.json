@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "[Support Discord Server!](https://dashcruft.com/discord)\r # Discord.js Simple & Advanced Meme command!\r ### Generate Popular memes! As good as Dank Memer bot itself 🐸\r ## 🔴 Requirement 🔴\r You have to install a package called got which is a nice and fast API for generating memes etc!",
   "main": "index.js",
-  "scripts": {
-    "test": "meme"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DashCruft/discord.js-meme.git"
@@ -16,13 +13,12 @@
     "discord.js"
   ],
   "author": "DashCruft",
-  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/DashCruft/discord.js-meme/issues"
   },
   "homepage": "https://github.com/DashCruft/discord.js-meme#readme",
   "dependencies": {
     "discord.js": "^12.3.1",
-    "got": "^11.6.0"
+    "got": "^11.8.3"
   }
 }
