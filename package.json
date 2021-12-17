@@ -1,7 +1,7 @@
 {
   "name": "discord.js-meme",
   "version": "1.0.0",
-  "description": "[Support Discord Server!](https://discord.gg/2RPg23k)\r # Discord.js Simple & Advanced Meme command!\r ### Generate Popular memes! As good as Dank Memer bot itself 🐸\r ## 🔴 Requirement 🔴\r You have to install a package called got which is a nice and fast API for generating memes etc!",
+  "description": "[Support Discord Server!](https://dashcruft.com/discord)\r # Discord.js Simple & Advanced Meme command!\r ### Generate Popular memes! As good as Dank Memer bot itself 🐸\r ## 🔴 Requirement 🔴\r You have to install a package called got which is a nice and fast API for generating memes etc!",
   "main": "index.js",
   "scripts": {
     "test": "meme"
