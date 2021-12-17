@@ -23,7 +23,6 @@
   "homepage": "https://github.com/DashCruft/discord.js-meme#readme",
   "dependencies": {
     "discord.js": "^12.3.1",
-    "fs": "0.0.1-security",
     "got": "^11.6.0"
   }
 }
