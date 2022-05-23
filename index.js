@@ -11,6 +11,10 @@ client.aliases = new Discord.Collection();
 
 loadCommands(client);
 
+client.on('ready', bot => {
+    console.log(`[BOT] Logged in as ${client.user.username}#${client.user.discriminator}.`)
+});
+
 client.on('message', message => {
     if (message.author.bot) return;
 
