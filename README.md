@@ -4,14 +4,16 @@
 
 ## 📕 Requirement 
 
-You have to install a package called `got` which is a nice and fast API for generating memes and etc! <br>
-To install it, you just have to simply do:
+We will be using `got` in this repo, which is a nice Human-friendly and powerful HTTP request library for Node.js <br>
+To install all of the dependencies, simply run the command below in the cloned project:
 
 ```js
 
-npm install got
+npm install
 
 ```
+
+To check what all the dependecies are, take a look at `package.json`.
 
 ## 📗 How to use?
 
