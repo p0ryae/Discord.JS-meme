@@ -30,3 +30,4 @@ client.on('messageCreate', message => {
     const commandfile = client.commands.get(cmd.slice(prefix.length)) || bot.commands.get(bot.aliases.get(cmd.slice(prefix.length)));
     commandfile.run(client, message, args);
 });
+
