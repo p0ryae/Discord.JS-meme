@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
 
 			embed.setTitle(`${memeTitle}`);
 			embed.setURL(`${memeUrl}`);
-			embed.setColor('RANDOM');
+			embed.setColor('Random');
 			embed.setImage(memeImage);
 			embed.setFooter({
 				text:`👍 ${memeUpvotes} 💬 ${memeNumComments}`
