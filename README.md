@@ -1,5 +1,3 @@
-# Discord.JS Simple & Advanced Meme cmd
-
 ### Generate Popular memes! As good as Dank Memer bot itself 🐸
 
 ## 📕 Requirement 
