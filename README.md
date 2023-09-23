@@ -11,17 +11,17 @@ npm install
 
 ```
 
-To check what all the dependecies are, take a look at `package.json`.
+To check what all the dependencies are, take a look at `package.json`'s `dependencies` field.
 
 ## 📗 How to use?
 
-This repository is fully developed and Includes a whole discord bot!
-If you're looking for the command itself, Navigate through `commands/meme.js` and then get the code included inside of the `module.exports.run`!
+This repository is fully developed and Includes a whole discord bot.
+If you're looking for the command itself, Navigate through `commands/meme.js` and use get the code included inside of the `module.exports.run`.
 You can also clone this repository if you want and just replace the token in index.js
 
 
 
 ## 🐛 You found an issue or a Bug?
 
-No worries! You can just create a pull request or a new issue as you can see on the top of the repository!
+No worries! You can just create a pull request or a new issue as you can see on the top of the repository.
 You can also join our [Support Discord Server](https://dashcruft.com/discord) if you need help with coding this or coding Discord bots in general
