@@ -17,7 +17,7 @@ To check what all the dependencies are, take a look at `package.json`'s `depende
 
 This repository is fully developed and Includes a whole discord bot.
 If you're looking for the command itself, Navigate through `commands/meme.js` and use get the code included inside of the `module.exports.run`.
-You can also clone this repository if you want and just replace the token in index.js
+You can also clone this repository if you want and just replace the token in `index.js`.
 
 
 
